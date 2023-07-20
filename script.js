@@ -30,6 +30,18 @@ $(document).ready(function() {
     const moneySpent = 504.38 - 58 - 57.85;
     const currentValue = Math.floor(lowestPriceNumber * amountBought);
     const profit = Math.floor(lowestPriceNumber * amountBought - moneySpent);
+
+    $('#price-1').text(lowestPriceNumber + '€');
+    $('#profit-1').text(profit + '€');
+    $('#amount-1').text(amountBought + 'x');
+
+    if (profit > 0) {
+        $('#profit-1').css('background-color', 'green');
+    } else if (profit == 0) {
+        $('#profit-1').css('background-color', 'gray');
+    } else {
+        $('#profit-1').css('background-color', 'red');
+    }
     
     // Example of displaying the lowest price and volume
     console.log('-----------------------------------')
@@ -70,6 +82,18 @@ $(document).ready(function() {
     const moneySpent2 = 58 + 57.85;
     const currentValue2 = Math.floor(lowestPriceNumber2 * amountBought2);
     const profit2 = Math.floor(lowestPriceNumber2 * amountBought2 - moneySpent2);
+
+    $('#price-2').text(lowestPriceNumber2 + '€');
+    $('#profit-2').text(profit2 + '€');
+    $('#amount-2').text(amountBought2 + 'x');
+
+    if (profit2 > 0) {
+        $('#profit-2').css('background-color', 'green');
+    } else if (profit2 == 0) {
+        $('#profit-2').css('background-color', 'gray');
+    } else {
+        $('#profit-2').css('background-color', 'red');
+    }
     
     // Example of displaying the lowest price and volume
     console.log('-----------------------------------')
