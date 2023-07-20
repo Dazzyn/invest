@@ -29,7 +29,7 @@
 
 #box-2 {
     left: 50%;
-    top: 75%;
+    top: 77%;
     transform: translate(-50%, -50%);
     position: absolute;
     background-color: rgb(36, 36, 36);
@@ -54,7 +54,7 @@
     font-size: 20px;
     position: relative;
     left: 5%;
-    top: 74%;
+    top: 73%;
 }
 
 #price-2 {
@@ -67,7 +67,7 @@
     font-size: 20px;
     position: relative;
     left: 5%;
-    top: 74%;
+    top: 73%;
 }
 
 #clutch-png {
@@ -97,7 +97,7 @@
     font-size: 20px;
     position: relative;
     left: 75%;
-    top: 58%;
+    top: 55%;
 }
 
 #profit-2 {
@@ -110,7 +110,7 @@
     font-size: 20px;
     position: relative;
     left: 75%;
-    top: 58%;
+    top: 55%;
 }
 
 #amount-1 {
