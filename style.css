@@ -29,7 +29,7 @@
 
 #box-2 {
     left: 50%;
-    top: 73%;
+    top: 75%;
     transform: translate(-50%, -50%);
     position: absolute;
     background-color: rgb(36, 36, 36);
@@ -97,7 +97,7 @@
     font-size: 20px;
     position: relative;
     left: 75%;
-    top: 60%;
+    top: 58%;
 }
 
 #profit-2 {
@@ -110,7 +110,7 @@
     font-size: 20px;
     position: relative;
     left: 75%;
-    top: 60%;
+    top: 58%;
 }
 
 #amount-1 {
