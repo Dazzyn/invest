@@ -48,7 +48,7 @@ function UpdatePricesInterval(url, id, data_amountBought, data_moneySpent, inter
     
         function displayData(data) {
     
-            const lowestPrice = data.lowest_price;
+            const lowestPrice = data.lowest_price - 0.1;
             const lowestPriceNumber = Number(lowestPrice.replace(/[^0-9.-]+/g,"")) / 100;
             const amountBought = data_amountBought;
             const moneySpent = data_moneySpent;
@@ -92,7 +92,7 @@ function UpdatePrices(url, id, data_amountBought, data_moneySpent) {
 
     function displayData(data) {
 
-        const lowestPrice = data.lowest_price;
+        const lowestPrice = data.lowest_price - 0.1;
         const lowestPriceNumber = Number(lowestPrice.replace(/[^0-9.-]+/g,"")) / 100;
         const amountBought = data_amountBought;
         const moneySpent = data_moneySpent;
